@@ -1,0 +1,22 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Api with Node js Express and Mongo db",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js --ignore '../client/'"
+  },
+  "author": "Yonatan Tesfaye",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "mongoose": "^6.2.8",
+    "multer": "^1.4.4",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}

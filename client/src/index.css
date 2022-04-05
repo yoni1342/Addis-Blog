@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+    .nav{
+        @apply bg-blue-300 scale-90 underline cursor-pointer transition transform duration-150 font-semibold
+    }
+}
